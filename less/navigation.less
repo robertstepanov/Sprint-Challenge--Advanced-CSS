@@ -1,1 +1,41 @@
 // Navigation code here
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: @wild-sand;
+  opacity: 0.7;
+  .border();
+  .nav-margin();
+  padding-top: 3%;
+  position: fixed;
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  nav {
+    display: flex;
+    width: 22%;
+    margin: 2% auto 1%;
+    justify-content: space-between;
+
+    @media @phone {
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  }
+
+  a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: @river-bend;
+
+    @media @phone {
+      font-size: 1.6rem;
+    }
+  }
+}
