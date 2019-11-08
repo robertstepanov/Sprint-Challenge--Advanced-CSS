@@ -1,0 +1,22 @@
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin: 3% auto;
+}
+.nav-wrapper h1 {
+  font-size: 4rem;
+}
+.nav-wrapper nav {
+  display: flex;
+  width: 80%;
+  margin: 2% auto;
+  justify-content: space-between;
+}
+.nav-wrapper a {
+  font-size: 1.8rem;
+  text-decoration: none;
+}

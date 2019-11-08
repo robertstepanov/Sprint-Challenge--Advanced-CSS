@@ -128,25 +128,22 @@ table {
 }
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  max-width: 100%;
 }
 html {
   font-size: 62.5%;
 }
 html,
 body {
-  font-family: "Ubuntu", sans-serif;
-  color: #5e6164;
+  font-family: 'Ubuntu', sans-serif;
+  color: #5E6164;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Russo One", sans-serif;
-  color: #23293b;
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
 }
 h2 {
   font-size: 3.2rem;
@@ -163,29 +160,6 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.nav-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  border-bottom: 1px solid #f1f1f1;
-  margin: 3% auto 0;
-}
-.nav-wrapper h1 {
-  font-size: 4rem;
-}
-.nav-wrapper nav {
-  display: flex;
-  width: 22%;
-  margin: 2% auto 1%;
-  justify-content: space-between;
-}
-.nav-wrapper a {
-  font-size: 1.8rem;
-  text-decoration: none;
-  color: #454a59;
-}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -195,9 +169,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.home .intro img {
-  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -240,20 +211,6 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
-}
-.home .walk .walk-text .btn {
-  background: #23293b;
-  color: #f1f1f1;
-  width: 30%;
-  text-align: center;
-  padding: 2% 4%;
-  font-size: 2rem;
-  border-radius: 5px;
-}
-.home .walk .walk-text .btn:hover {
-  background: #f1f1f1;
-  color: #23293b;
-  cursor: pointer;
 }
 .home .walk .walk-img {
   width: 46%;
